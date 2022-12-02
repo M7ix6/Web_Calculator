@@ -100,5 +100,9 @@ body{
 }
 
 .triple{
-    flex-basis: 74%;
+    flex-basis: 73%;
+}
+
+.one {
+    flex-basis: 20%;
 }
