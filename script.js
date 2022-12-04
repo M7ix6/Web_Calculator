@@ -5,7 +5,7 @@ let previousOperator;
 const screen = document.querySelector('.screen');
 
 function buttonClick(value){
-    console.log(value);
+    console.log(symbol)
     if(isNaN(value)){
         handleSymbol(value);
     }else{
@@ -46,7 +46,7 @@ function handleSymbol(symbol){
 }
 
 function handleMath(symbol){
-    console.log(symbol)
+    console,log(symbol)
     if(buffer === '0'){
         return;
     }
