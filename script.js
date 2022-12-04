@@ -46,7 +46,7 @@ function handleSymbol(symbol){
 }
 
 function handleMath(symbol){
-    console,log(symbol)
+    console.log(symbol)
     if(buffer === '0'){
         return;
     }
